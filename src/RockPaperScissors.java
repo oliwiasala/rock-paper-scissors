@@ -40,7 +40,7 @@ public class RockPaperScissors {
                             System.out.println("Thank you for playing!");
                             return;  // Exit the entire game
                         } else {
-                            System.out.print("\033\143");
+                            System.out.print("\033\143"); // Clear the console
                             break;  // Restart the game loop
                         }
                     } else {
